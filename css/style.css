@@ -1038,6 +1038,12 @@ label:after{
 	.slider__items3{
 		height: 200px;
 	}
+	.shop__body{
+		flex-direction: column;
+	}
+	.shop__img a img{
+		width: 100%;
+	}
 }
 
 
