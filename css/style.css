@@ -1029,6 +1029,15 @@ label:after{
 	.shop{
 		flex: 1 1 auto;
 	}
+	.slider__items1{
+		height: 200px;
+	}
+	.slider__items2{
+		height: 200px;
+	}
+	.slider__items3{
+		height: 200px;
+	}
 }
 
 
