@@ -19,4 +19,10 @@ $(document).ready(function(){
 
 });
 });
+// Выпадающий список магазинов при клике на "Магазины"
+let dropDownButton = document.querySelector(".dropdown-button");
+let dropDownList = document.querySelector(".dropdown")
+dropDownButton.onclick = function(){
+	dropDownList.classList.toggle("dropdown-visible");
+}
 
