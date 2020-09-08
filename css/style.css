@@ -191,7 +191,7 @@ a{
 	position: sticky;
 	top: 0;
 	background-color: rgba(249, 249, 249, 0.88);
-	z-index: 1000;
+	z-index: 1001;
 }
 .menu-row{
 	max-width: 1300px;
@@ -227,6 +227,10 @@ a{
 	visibility: hidden;
 	background-color: rgba(249, 249, 249, 0.92);
 	box-shadow: 0 0 3px;
+	z-index: 1000;
+}
+.dropdown-visible{
+	visibility: visible;	
 }
 .dropdown li, ul{
 	list-style: none;
@@ -238,8 +242,9 @@ a{
 	position: relative;	
 }
 .dropdown-button:hover .dropdown{
-	visibility: visible;
+	/* visibility: visible; */
 }
+
 /*Меню бургер*/
 .menu-burger{
 	display: none;
@@ -289,11 +294,19 @@ a{
 	text-align: center;
 	margin: 20px 5px;
 	display: flex;
+	visibility: hidden;
+	opacity: 0;
 	flex-direction: column;
 	justify-content: space-between;
 	box-shadow: 0px 0px 4px #000000;
 	box-sizing: border-box;
 	flex: 1 1 32%;
+	transition: 1s opacity, 1s transition;
+}
+.shop-visible{
+	visibility: visible;
+	opacity: 1;
+	
 }
 .shop__image a{
 	display: block;
@@ -713,9 +726,7 @@ label:after{
 	background-position: inherit;
 }
 /*Слайдер стили Слик*/
-.slick-slider{
 
-}
 .slick-track{
 	display: flex;
 }
@@ -1037,12 +1048,6 @@ label:after{
 	}
 	.slider__items3{
 		height: 200px;
-	}
-	.shop__body{
-		flex-direction: column;
-	}
-	.shop__img a img{
-		width: 100%;
 	}
 }
 
