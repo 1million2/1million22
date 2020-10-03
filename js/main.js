@@ -29,7 +29,7 @@ let shop = document.querySelectorAll(".shop");
 // показываем блоки если страцица загрузилась посередине и не нужно скролить
 for ( let shopItem of shop){
 	window.addEventListener("DOMContentLoaded", function() {
-		if (pageYOffset >= 500) {
+		if (pageYOffset >= 400) {
 			shopItem.classList.add("shop-visible");
 		}
 	})
@@ -62,8 +62,8 @@ function showShopContainer2(scrollPos) {
 // добавляем слушатель и вешаем на него 2 эти функции для отображения блоков при скроле
 window.addEventListener("scroll", function () {
 
-		showShopContainer1(500);
-		showShopContainer2(1450);	
+		showShopContainer1(400);
+		showShopContainer2(1350);	
 });
 
 
