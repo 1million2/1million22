@@ -63,7 +63,7 @@ function showShopContainer2(scrollPos) {
 // добавляем слушатель и вешаем на него 2 эти функции для отображения блоков при скроле
 window.addEventListener("scroll", function () {
 	showShopContainer1(400);
-	showShopContainer2(1150);
+	showShopContainer2(1000);
 });
 
 
