@@ -624,7 +624,7 @@ label:after{
 /* Страница О компании */
 .conteiner-about{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	box-shadow: 0 0 4px black;
 	margin: 20px;
 }
