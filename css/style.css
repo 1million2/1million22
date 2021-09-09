@@ -1042,6 +1042,7 @@ label:after{
 	}
 	.support-conteiner {
 		flex-direction: column;
+		row-gap: 25px;
 	}
 	.support__item:after {
 		left: 50%;
@@ -1052,6 +1053,9 @@ label:after{
 	}
 	.support__title p {
 		margin-bottom: 5px;
+	}
+	.support__item {
+		width: 100%;
 	}
 }
 
