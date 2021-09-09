@@ -1040,6 +1040,19 @@ label:after{
 	.slider__items3{
 		height: 200px;
 	}
+	.support-conteiner {
+		flex-direction: column;
+	}
+	.support__item:after {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.support-conteiner h4 {
+		margin: 0 0 10px 0;
+	}
+	.support__title p {
+		margin-bottom: 5px;
+	}
 }
 
 
