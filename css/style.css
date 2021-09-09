@@ -1057,6 +1057,15 @@ label:after{
 	.support__item {
 		max-width: 100%;
 	}
+	.footer__content {
+		flex-direction: column;
+	}
+	.footer p {
+		bottom: 0;
+	}
+	.footer__container img {
+		margin: 0px 10px 24px 10px;
+	}
 }
 
 
